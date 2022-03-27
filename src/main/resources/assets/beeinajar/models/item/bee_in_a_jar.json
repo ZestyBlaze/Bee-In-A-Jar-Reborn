@@ -1,0 +1,22 @@
+{
+  "parent": "beeinajar:block/bee_in_a_jar",
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [0, 0, -2],
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "thirdperson_lefthand": {
+      "translation": [0, 0, -2],
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "firstperson_righthand": {
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "firstperson_lefthand": {
+      "scale": [0.3, 0.3, 0.3]
+    },
+    "ground": {
+      "scale": [0.3, 0.3, 0.3]
+    }
+  }
+}

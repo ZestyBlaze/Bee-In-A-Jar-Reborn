@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "beeinajar:block/bee_in_a_jar"
+    },
+    "facing=east": {
+      "model": "beeinajar:block/bee_in_a_jar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "beeinajar:block/bee_in_a_jar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "beeinajar:block/bee_in_a_jar",
+      "y": 270
+    }
+  }
+}

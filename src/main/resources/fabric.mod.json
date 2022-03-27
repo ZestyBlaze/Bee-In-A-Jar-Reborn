@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "beeinajar",
+  "version": "${version}",
+
+  "name": "Bee In A Jar",
+  "description": "It's just a bee in a jar!",
+  "authors": [
+    "ZestyBlaze"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/ZestyBlaze/Bee-In-A-Jar-Reborn",
+    "issues": "https://github.com/ZestyBlaze/Bee-In-A-Jar-Reborn/issues"
+  },
+
+  "license": "MIT License",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.zestyblaze.beeinajar.BeeInAJar"
+    ],
+    "client": [
+      "net.zestyblaze.beeinajar.client.BIAJClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
