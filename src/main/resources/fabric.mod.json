@@ -9,7 +9,7 @@
     "ZestyBlaze"
   ],
   "contact": {
-    "homepage": "",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/bee-in-a-jar-reborn",
     "sources": "https://github.com/ZestyBlaze/Bee-In-A-Jar-Reborn",
     "issues": "https://github.com/ZestyBlaze/Bee-In-A-Jar-Reborn/issues"
   },
@@ -30,7 +30,7 @@
   "depends": {
     "fabricloader": ">=0.12.12",
     "fabric": "*",
-    "minecraft": "1.18.x",
+    "minecraft": "1.19.x",
     "java": ">=17"
   }
 }

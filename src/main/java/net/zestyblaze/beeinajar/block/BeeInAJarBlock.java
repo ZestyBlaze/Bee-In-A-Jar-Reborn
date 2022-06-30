@@ -43,9 +43,9 @@ public class BeeInAJarBlock extends Block {
     }
 
     @Override
-    public void spawnAfterBreak(BlockState state, ServerLevel level, BlockPos pos, ItemStack stack) {
+    public void spawnAfterBreak(BlockState state, ServerLevel level, BlockPos pos, ItemStack stack, boolean bl) {
         if(EnchantmentHelper.getItemEnchantmentLevel(Enchantments.SILK_TOUCH, stack) == 0) {
-            super.spawnAfterBreak(state, level, pos, stack);
+            super.spawnAfterBreak(state, level, pos, stack, bl);
             Bee bee = EntityType.BEE.create(level);
             assert bee != null;
             bee.moveTo((double) pos.getX() + 0.5D, pos.getY(), (double) pos.getZ() + 0.5D, 0.0F, 0.0F);
